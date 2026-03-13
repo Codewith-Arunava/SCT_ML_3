@@ -21,7 +21,7 @@ Features
 8. **Support for Multiple Image Formats**: The application supports multiple image formats, including JPEG, PNG, and BMP.
 
 Tech Stack
-------------
+-----------
 
 | Technology | Version |
 | --- | --- |
