@@ -14,7 +14,7 @@ def read_and_preprocess_image(file_or_bytes, img_size):
             if img is None:
                 raise ValueError("Unable to read image from path.")
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-        else:
+        else: 
             pil_img = Image.open(file_or_bytes).convert("RGB")
             img = np.array(pil_img)
     else:
